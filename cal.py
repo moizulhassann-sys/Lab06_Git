@@ -15,6 +15,8 @@ elif (z == '/'):
         print("not possible")
 elif (z == '%'):
     res = x % y 
+elif (z == '**'):
+    res = x ** y
 else:
     print("invalid input !")
 
