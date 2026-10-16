@@ -9,7 +9,10 @@ elif (z == '-'):
 elif (z == '*'):
     res = x * y 
 elif (z == '/'):
-    res = x / y 
+    if (y != 0):
+        res = x / y 
+    else:
+        print("not possible")
 elif (z == '%'):
     res = x % y 
 else:
